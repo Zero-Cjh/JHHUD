@@ -20,6 +20,8 @@ class JHHUDMainView: UIView {
         self.snp.makeConstraints { make in
             make.edges.equalTo(rootView)
         }
+        self.setNeedsLayout()
+        self.layoutIfNeeded()
         UIView.animate(withDuration: 0.1) {
             self.backgroundView.alpha = 1
             self.centerView.alpha = 1

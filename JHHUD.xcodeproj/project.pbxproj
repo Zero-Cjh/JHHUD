@@ -7,21 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F2AB478328B38A8A007ACD03 /* JHHUDIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB477E28B38A8A007ACD03 /* JHHUDIconView.swift */; };
-		F2AB478428B38A8A007ACD03 /* JHHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB477F28B38A8A007ACD03 /* JHHUD.swift */; };
-		F2AB478528B38A8A007ACD03 /* JHHUDMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB478028B38A8A007ACD03 /* JHHUDMethod.swift */; };
-		F2AB478628B38A8A007ACD03 /* JHHUDHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB478128B38A8A007ACD03 /* JHHUDHeader.swift */; };
-		F2AB478728B38A8A007ACD03 /* JHHUDMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2AB478228B38A8A007ACD03 /* JHHUDMainView.swift */; };
-		F2AB478A28B38A9C007ACD03 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F2AB478928B38A9C007ACD03 /* SnapKit */; };
+		D5780CB49CC2D5EB71081045 /* Pods_JHHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54888F643152B2BDB3FA6F27 /* Pods_JHHUD.framework */; };
+		F2FDB77A28B75EEA00307DD2 /* JHHUDIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77528B75EEA00307DD2 /* JHHUDIconView.swift */; };
+		F2FDB77B28B75EEA00307DD2 /* JHHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77628B75EEA00307DD2 /* JHHUD.swift */; };
+		F2FDB77D28B75EEA00307DD2 /* JHHUDHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77828B75EEA00307DD2 /* JHHUDHeader.swift */; };
+		F2FDB77E28B75EEA00307DD2 /* JHHUDMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77928B75EEA00307DD2 /* JHHUDMainView.swift */; };
+		F2FDB78028B75FB700307DD2 /* JHHUD_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77F28B75FB700307DD2 /* JHHUD_ThemeStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54888F643152B2BDB3FA6F27 /* Pods_JHHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		933A57676A1AD739C34AB7F2 /* Pods-JHHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHUD.debug.xcconfig"; path = "Target Support Files/Pods-JHHUD/Pods-JHHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		CFFF7C1BFD981C0663FF88EC /* Pods-JHHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHUD.release.xcconfig"; path = "Target Support Files/Pods-JHHUD/Pods-JHHUD.release.xcconfig"; sourceTree = "<group>"; };
 		F2AB477228B38A76007ACD03 /* JHHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2AB477E28B38A8A007ACD03 /* JHHUDIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDIconView.swift; sourceTree = "<group>"; };
-		F2AB477F28B38A8A007ACD03 /* JHHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUD.swift; sourceTree = "<group>"; };
-		F2AB478028B38A8A007ACD03 /* JHHUDMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDMethod.swift; sourceTree = "<group>"; };
-		F2AB478128B38A8A007ACD03 /* JHHUDHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDHeader.swift; sourceTree = "<group>"; };
-		F2AB478228B38A8A007ACD03 /* JHHUDMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDMainView.swift; sourceTree = "<group>"; };
+		F2FDB77528B75EEA00307DD2 /* JHHUDIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDIconView.swift; sourceTree = "<group>"; };
+		F2FDB77628B75EEA00307DD2 /* JHHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUD.swift; sourceTree = "<group>"; };
+		F2FDB77828B75EEA00307DD2 /* JHHUDHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDHeader.swift; sourceTree = "<group>"; };
+		F2FDB77928B75EEA00307DD2 /* JHHUDMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDMainView.swift; sourceTree = "<group>"; };
+		F2FDB77F28B75FB700307DD2 /* JHHUD_ThemeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHUD_ThemeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,18 +32,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AB478A28B38A9C007ACD03 /* SnapKit in Frameworks */,
+				D5780CB49CC2D5EB71081045 /* Pods_JHHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		150A6AD9CCAE4F302B253EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				933A57676A1AD739C34AB7F2 /* Pods-JHHUD.debug.xcconfig */,
+				CFFF7C1BFD981C0663FF88EC /* Pods-JHHUD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		252E5082542A5668F7ECF8CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54888F643152B2BDB3FA6F27 /* Pods_JHHUD.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		F2AB476828B38A76007ACD03 = {
 			isa = PBXGroup;
 			children = (
-				F2AB477C28B38A8A007ACD03 /* Sources */,
+				F2FDB77428B75EEA00307DD2 /* JHHUD */,
 				F2AB477328B38A76007ACD03 /* Products */,
+				150A6AD9CCAE4F302B253EE8 /* Pods */,
+				252E5082542A5668F7ECF8CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,24 +74,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F2AB477C28B38A8A007ACD03 /* Sources */ = {
+		F2FDB77428B75EEA00307DD2 /* JHHUD */ = {
 			isa = PBXGroup;
 			children = (
-				F2AB477D28B38A8A007ACD03 /* JHHUD */,
+				F2FDB77528B75EEA00307DD2 /* JHHUDIconView.swift */,
+				F2FDB77628B75EEA00307DD2 /* JHHUD.swift */,
+				F2FDB77828B75EEA00307DD2 /* JHHUDHeader.swift */,
+				F2FDB77928B75EEA00307DD2 /* JHHUDMainView.swift */,
+				F2FDB77F28B75FB700307DD2 /* JHHUD_ThemeStyle.swift */,
 			);
-			path = Sources;
-			sourceTree = "<group>";
-		};
-		F2AB477D28B38A8A007ACD03 /* JHHUD */ = {
-			isa = PBXGroup;
-			children = (
-				F2AB477E28B38A8A007ACD03 /* JHHUDIconView.swift */,
-				F2AB477F28B38A8A007ACD03 /* JHHUD.swift */,
-				F2AB478028B38A8A007ACD03 /* JHHUDMethod.swift */,
-				F2AB478128B38A8A007ACD03 /* JHHUDHeader.swift */,
-				F2AB478228B38A8A007ACD03 /* JHHUDMainView.swift */,
-			);
-			path = JHHUD;
+			name = JHHUD;
+			path = Package/Sources/JHHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +104,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F2AB477928B38A76007ACD03 /* Build configuration list for PBXNativeTarget "JHHUD" */;
 			buildPhases = (
+				83D8DD0D299897A0FBEF02D7 /* [CP] Check Pods Manifest.lock */,
 				F2AB476D28B38A76007ACD03 /* Headers */,
 				F2AB476E28B38A76007ACD03 /* Sources */,
 				F2AB476F28B38A76007ACD03 /* Frameworks */,
@@ -100,7 +116,6 @@
 			);
 			name = JHHUD;
 			packageProductDependencies = (
-				F2AB478928B38A9C007ACD03 /* SnapKit */,
 			);
 			productName = JHHUD;
 			productReference = F2AB477228B38A76007ACD03 /* JHHUD.framework */;
@@ -130,7 +145,6 @@
 			);
 			mainGroup = F2AB476828B38A76007ACD03;
 			packageReferences = (
-				F2AB478828B38A9C007ACD03 /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = F2AB477328B38A76007ACD03 /* Products */;
 			projectDirPath = "";
@@ -151,16 +165,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		83D8DD0D299897A0FBEF02D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JHHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F2AB476E28B38A76007ACD03 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AB478628B38A8A007ACD03 /* JHHUDHeader.swift in Sources */,
-				F2AB478728B38A8A007ACD03 /* JHHUDMainView.swift in Sources */,
-				F2AB478328B38A8A007ACD03 /* JHHUDIconView.swift in Sources */,
-				F2AB478428B38A8A007ACD03 /* JHHUD.swift in Sources */,
-				F2AB478528B38A8A007ACD03 /* JHHUDMethod.swift in Sources */,
+				F2FDB78028B75FB700307DD2 /* JHHUD_ThemeStyle.swift in Sources */,
+				F2FDB77D28B75EEA00307DD2 /* JHHUDHeader.swift in Sources */,
+				F2FDB77E28B75EEA00307DD2 /* JHHUDMainView.swift in Sources */,
+				F2FDB77A28B75EEA00307DD2 /* JHHUDIconView.swift in Sources */,
+				F2FDB77B28B75EEA00307DD2 /* JHHUD.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +328,7 @@
 		};
 		F2AB477A28B38A76007ACD03 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 933A57676A1AD739C34AB7F2 /* Pods-JHHUD.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -319,6 +359,7 @@
 		};
 		F2AB477B28B38A76007ACD03 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFFF7C1BFD981C0663FF88EC /* Pods-JHHUD.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -369,25 +410,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F2AB478828B38A9C007ACD03 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.6.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F2AB478928B38A9C007ACD03 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2AB478828B38A9C007ACD03 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2AB476928B38A76007ACD03 /* Project object */;
 }

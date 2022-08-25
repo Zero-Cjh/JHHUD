@@ -4,7 +4,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "JHHUD"
   
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   
   spec.summary      = "A simple HUD with iOS."
 
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
 
   spec.source       = { :git => "https://github.com/Zero-Cjh/JHHUD.git", :tag => "#{spec.version}" }
 
-  spec.source_files  = "Sources/JHHUD/*.swift"
+  spec.source_files  = "Package/Sources/JHHUD/*.swift"
 
   spec.framework = 'UIKit', 'Foundation'
   spec.dependency 'SnapKit'
