@@ -213,13 +213,70 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 # pragma pop_macro("any")
 #endif
 
+@class UIColor;
+enum JHHUDType : NSInteger;
+@class UIView;
+@class NSString;
 
 SWIFT_CLASS("_TtC5JHHUD5JHHUD")
 @interface JHHUD : NSObject
+/// 单例
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) JHHUD * _Nonnull Manager;)
++ (JHHUD * _Nonnull)Manager SWIFT_WARN_UNUSED_RESULT;
+/// 字体颜色
+@property (nonatomic, strong) UIColor * _Nonnull fontColor;
+/// 背景色
+@property (nonatomic, strong) UIColor * _Nonnull backgroundColor;
+/// 用户是否可以交互
+@property (nonatomic) BOOL isUserInteractionEnable;
+/// 显示HUD
+/// \param view 在指定View里面显示，默认全屏
+///
+/// \param msg 提示字符，默认空字符串
+///
+/// \param durationTime 持续时间，默认全局设置，当设置为0时将需手动移除
+///
+- (void)showHUD:(enum JHHUDType)type inView:(UIView * _Nullable)view msg:(NSString * _Nullable)msg durationTime:(NSInteger)durationTime;
+/// 移除HUD
+- (void)removeHUD;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
 @end
 
+
+@interface JHHUD (SWIFT_EXTENSION(JHHUD))
+/// 持续时间
+/// Default: 40s
+/// 如果设置为0，则持续存在，需手动释放
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) NSInteger durationTime;)
++ (NSInteger)durationTime SWIFT_WARN_UNUSED_RESULT;
++ (void)setDurationTime:(NSInteger)newValue;
+/// 字体颜色
+/// Default: darkText
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) UIColor * _Nonnull fontColor;)
++ (UIColor * _Nonnull)fontColor SWIFT_WARN_UNUSED_RESULT;
++ (void)setFontColor:(UIColor * _Nonnull)newValue;
+/// 背景色
+/// Default: clear
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, strong) UIColor * _Nonnull backgroundColor;)
++ (UIColor * _Nonnull)backgroundColor SWIFT_WARN_UNUSED_RESULT;
++ (void)setBackgroundColor:(UIColor * _Nonnull)newValue;
+/// 用户是否可以交互
+/// Default: false 全屏不可交互
+/// 如设置InView显示HUD，则指定窗口不可互动
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL isUserInteractionEnable;)
++ (BOOL)isUserInteractionEnable SWIFT_WARN_UNUSED_RESULT;
++ (void)setIsUserInteractionEnable:(BOOL)newValue;
+@end
+
+typedef SWIFT_ENUM(NSInteger, JHHUDType, closed) {
+/// Loading动画
+  JHHUDTypeLoading = 0,
+/// 成功
+  JHHUDTypeSuccess = 1,
+/// 失败
+  JHHUDTypeFail = 2,
+};
 
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
