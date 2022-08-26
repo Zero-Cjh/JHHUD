@@ -2,7 +2,8 @@
 //  JHHUD_ThemeStyle.swift
 //  JHHUD
 //
-//  Created by rastar on 2022/8/25.
+//  Created by Junhong on 2022/8/25.
+//  Copyright © 2022 JHHUD. All rights reserved.
 //
 
 import Foundation

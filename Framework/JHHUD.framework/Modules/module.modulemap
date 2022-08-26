@@ -1,4 +1,0 @@
-framework module JHHUD {
-  header "JHHUD-Swift.h"
-  requires objc
-}

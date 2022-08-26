@@ -8,23 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		D5780CB49CC2D5EB71081045 /* Pods_JHHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54888F643152B2BDB3FA6F27 /* Pods_JHHUD.framework */; };
-		F2FDB77A28B75EEA00307DD2 /* JHHUDIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77528B75EEA00307DD2 /* JHHUDIconView.swift */; };
-		F2FDB77B28B75EEA00307DD2 /* JHHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77628B75EEA00307DD2 /* JHHUD.swift */; };
-		F2FDB77D28B75EEA00307DD2 /* JHHUDHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77828B75EEA00307DD2 /* JHHUDHeader.swift */; };
-		F2FDB77E28B75EEA00307DD2 /* JHHUDMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77928B75EEA00307DD2 /* JHHUDMainView.swift */; };
-		F2FDB78028B75FB700307DD2 /* JHHUD_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FDB77F28B75FB700307DD2 /* JHHUD_ThemeStyle.swift */; };
+		F22BDFA428B85C5C001970AA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F22BDFA328B85C5C001970AA /* SnapKit */; };
+		F22BDFAB28B85CC6001970AA /* JHHUDIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BDFA628B85CC6001970AA /* JHHUDIconView.swift */; };
+		F22BDFAC28B85CC6001970AA /* JHHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BDFA728B85CC6001970AA /* JHHUD.swift */; };
+		F22BDFAD28B85CC6001970AA /* JHHUDHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BDFA828B85CC6001970AA /* JHHUDHeader.swift */; };
+		F22BDFAE28B85CC6001970AA /* JHHUD_ThemeStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BDFA928B85CC6001970AA /* JHHUD_ThemeStyle.swift */; };
+		F22BDFAF28B85CC6001970AA /* JHHUDMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22BDFAA28B85CC6001970AA /* JHHUDMainView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		54888F643152B2BDB3FA6F27 /* Pods_JHHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JHHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		933A57676A1AD739C34AB7F2 /* Pods-JHHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHUD.debug.xcconfig"; path = "Target Support Files/Pods-JHHUD/Pods-JHHUD.debug.xcconfig"; sourceTree = "<group>"; };
 		CFFF7C1BFD981C0663FF88EC /* Pods-JHHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JHHUD.release.xcconfig"; path = "Target Support Files/Pods-JHHUD/Pods-JHHUD.release.xcconfig"; sourceTree = "<group>"; };
+		F22BDFA628B85CC6001970AA /* JHHUDIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDIconView.swift; sourceTree = "<group>"; };
+		F22BDFA728B85CC6001970AA /* JHHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUD.swift; sourceTree = "<group>"; };
+		F22BDFA828B85CC6001970AA /* JHHUDHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDHeader.swift; sourceTree = "<group>"; };
+		F22BDFA928B85CC6001970AA /* JHHUD_ThemeStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUD_ThemeStyle.swift; sourceTree = "<group>"; };
+		F22BDFAA28B85CC6001970AA /* JHHUDMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDMainView.swift; sourceTree = "<group>"; };
 		F2AB477228B38A76007ACD03 /* JHHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JHHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F2FDB77528B75EEA00307DD2 /* JHHUDIconView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDIconView.swift; sourceTree = "<group>"; };
-		F2FDB77628B75EEA00307DD2 /* JHHUD.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUD.swift; sourceTree = "<group>"; };
-		F2FDB77828B75EEA00307DD2 /* JHHUDHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDHeader.swift; sourceTree = "<group>"; };
-		F2FDB77928B75EEA00307DD2 /* JHHUDMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JHHUDMainView.swift; sourceTree = "<group>"; };
-		F2FDB77F28B75FB700307DD2 /* JHHUD_ThemeStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JHHUD_ThemeStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +34,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5780CB49CC2D5EB71081045 /* Pods_JHHUD.framework in Frameworks */,
+				F22BDFA428B85C5C001970AA /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,10 +58,23 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F22BDFA528B85CC6001970AA /* JHHUD */ = {
+			isa = PBXGroup;
+			children = (
+				F22BDFA628B85CC6001970AA /* JHHUDIconView.swift */,
+				F22BDFA728B85CC6001970AA /* JHHUD.swift */,
+				F22BDFA828B85CC6001970AA /* JHHUDHeader.swift */,
+				F22BDFA928B85CC6001970AA /* JHHUD_ThemeStyle.swift */,
+				F22BDFAA28B85CC6001970AA /* JHHUDMainView.swift */,
+			);
+			name = JHHUD;
+			path = Sources/JHHUD;
+			sourceTree = "<group>";
+		};
 		F2AB476828B38A76007ACD03 = {
 			isa = PBXGroup;
 			children = (
-				F2FDB77428B75EEA00307DD2 /* JHHUD */,
+				F22BDFA528B85CC6001970AA /* JHHUD */,
 				F2AB477328B38A76007ACD03 /* Products */,
 				150A6AD9CCAE4F302B253EE8 /* Pods */,
 				252E5082542A5668F7ECF8CA /* Frameworks */,
@@ -72,19 +87,6 @@
 				F2AB477228B38A76007ACD03 /* JHHUD.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F2FDB77428B75EEA00307DD2 /* JHHUD */ = {
-			isa = PBXGroup;
-			children = (
-				F2FDB77528B75EEA00307DD2 /* JHHUDIconView.swift */,
-				F2FDB77628B75EEA00307DD2 /* JHHUD.swift */,
-				F2FDB77828B75EEA00307DD2 /* JHHUDHeader.swift */,
-				F2FDB77928B75EEA00307DD2 /* JHHUDMainView.swift */,
-				F2FDB77F28B75FB700307DD2 /* JHHUD_ThemeStyle.swift */,
-			);
-			name = JHHUD;
-			path = Package/Sources/JHHUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -116,6 +118,7 @@
 			);
 			name = JHHUD;
 			packageProductDependencies = (
+				F22BDFA328B85C5C001970AA /* SnapKit */,
 			);
 			productName = JHHUD;
 			productReference = F2AB477228B38A76007ACD03 /* JHHUD.framework */;
@@ -145,6 +148,7 @@
 			);
 			mainGroup = F2AB476828B38A76007ACD03;
 			packageReferences = (
+				F22BDFA228B85C5C001970AA /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = F2AB477328B38A76007ACD03 /* Products */;
 			projectDirPath = "";
@@ -195,11 +199,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2FDB78028B75FB700307DD2 /* JHHUD_ThemeStyle.swift in Sources */,
-				F2FDB77D28B75EEA00307DD2 /* JHHUDHeader.swift in Sources */,
-				F2FDB77E28B75EEA00307DD2 /* JHHUDMainView.swift in Sources */,
-				F2FDB77A28B75EEA00307DD2 /* JHHUDIconView.swift in Sources */,
-				F2FDB77B28B75EEA00307DD2 /* JHHUD.swift in Sources */,
+				F22BDFAB28B85CC6001970AA /* JHHUDIconView.swift in Sources */,
+				F22BDFAF28B85CC6001970AA /* JHHUDMainView.swift in Sources */,
+				F22BDFAD28B85CC6001970AA /* JHHUDHeader.swift in Sources */,
+				F22BDFAC28B85CC6001970AA /* JHHUD.swift in Sources */,
+				F22BDFAE28B85CC6001970AA /* JHHUD_ThemeStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +414,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F22BDFA228B85C5C001970AA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = exactVersion;
+				version = 5.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F22BDFA328B85C5C001970AA /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F22BDFA228B85C5C001970AA /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2AB476928B38A76007ACD03 /* Project object */;
 }
